@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { ModMenuModule } from './mod-menu/mod-menu.module';
+import { ModBarPrincipalModule } from './mod-bar-principal/mod-bar-principal.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { ModMenuModule } from './mod-menu/mod-menu.module';
     BrowserModule,
     FormsModule,
     HttpModule,
-    ModMenuModule
+    ModBarPrincipalModule
   ],
   providers: [],
   bootstrap: [AppComponent]
